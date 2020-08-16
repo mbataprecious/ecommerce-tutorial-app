@@ -4,7 +4,7 @@ import rootReducer from './rootReducer'
 import reduxLogger from 'redux-logger';
 import storage from 'redux-persist/lib/storage'
 
-let middlewareArray
+let middlewareArray=[]
 if(process.env.NODE_ENV==='development')
    middlewareArray=[reduxLogger]
 
