@@ -50,7 +50,6 @@ setCurrentUser({
 
   render(){
     let {currentUser}=this.props
-    console.log(currentUser)
     return (
     <div>
       <Header/>
